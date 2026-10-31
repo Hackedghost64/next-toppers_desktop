@@ -1,0 +1,22 @@
+{
+  "name": "next-toppers-desktop",
+  "version": "1.0.0",
+  "description": "Next Toppers Desktop Client for Linux",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --linux"
+  },
+  "keywords": [
+    "next-toppers",
+    "edtech",
+    "desktop",
+    "linux"
+  ],
+  "author": "Next Toppers Desktop Team",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^45.1.0",
+    "hls.js": "^1.7.3"
+  }
+}
